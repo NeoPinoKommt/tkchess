@@ -348,7 +348,7 @@ def parsemoves(moves):
             movehistory.append(board.peek())
             #print(movehistory)
     boardvalue = init_evaluate_board()
-    mov = selectmove(1)
+    mov = selectmove(5)
     san = board.san(mov)
     #board.push(mov)
     #print(mov)
