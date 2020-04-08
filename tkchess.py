@@ -71,7 +71,7 @@ class Root():
         self.button = Button(text = "pgn draw", command = self.to_latex)
         self.button2 = Button(text = "flip", command = self.inverse)
         #self.button3 = Button(text = "computer", command = computer_move(self.strvar.get()))
-        self.button4 = Button(text = "test", command = lambda:[parsemoves(self.strvar.get()), self.strvar.set(sanstila["sanssit"]), self.to_latex()])
+        self.button4 = Button(text = "computer", command = lambda:[parsemoves(self.strvar.get()), self.strvar.set(sanstila["sanssit"]), self.to_latex()])
 
         self.entry.grid(row=0, columnspan=4, sticky=W+E)
         self.button.grid(row=0, column=5)
